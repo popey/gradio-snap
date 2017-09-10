@@ -1,7 +1,5 @@
 project('gradio', ['vala', 'C'], version : '6.0')
 
-i18n = import('i18n')
-
 cc = meson.get_compiler('c')
 libm = cc.find_library('m', required: false)
 glib = dependency('glib-2.0')
@@ -20,7 +18,6 @@ add_project_arguments('-DG_LOG_DOMAIN="gradio"', language: 'c')
 
 
 subdir('data')
-subdir('po')
 subdir('external')
 subdir('src')
 
