@@ -10,7 +10,7 @@ description: |
   backend. 
 icon: data/icons/de.haeckerfelix.gradio.svg
 
-grade: stable
+grade: devel
 confinement: strict
 
 plugs:
@@ -61,7 +61,7 @@ parts:
   gradio:
     after: [desktop-gnome-platform, prepare]
     plugin: meson
-    source: .
+    source: https://github.com/haecker-felix/gradio/archive/master.zip
     meson-parameters:
       - --buildtype=plain
       - --prefix=/snap/gradio/current/usr
