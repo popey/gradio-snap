@@ -10,7 +10,7 @@ description: |
   backend. 
 icon: data/icons/de.haeckerfelix.gradio.svg
 
-grade: devel
+grade: stable
 confinement: strict
 
 plugs:
