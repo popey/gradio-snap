@@ -37,7 +37,7 @@ slots:
     interface: dbus
     bus: session
     name: de.haeckerfelix.gradio
-  gradio-mpris:
+  mpris:
     interface: mpris
     name: gradio
 
