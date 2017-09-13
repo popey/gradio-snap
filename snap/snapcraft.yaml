@@ -61,7 +61,9 @@ parts:
   gradio:
     after: [desktop-gnome-platform, prepare]
     plugin: meson
-    source: https://github.com/haecker-felix/gradio/archive/master.zip
+    source: https://github.com/haecker-felix/gradio/archive/master.tar.gz
+    prepare: |
+      pip3 install meson
     meson-parameters:
       - --buildtype=plain
       - --prefix=/snap/gradio/current/usr
