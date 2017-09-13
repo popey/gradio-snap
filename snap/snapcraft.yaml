@@ -85,7 +85,6 @@ parts:
       - python3-pip
       - python3-setuptools
       - python3-wheel
-- python3-wheel
     stage-packages:
       - gstreamer1.0-fluendo-mp3
       - gstreamer1.0-plugins-good
