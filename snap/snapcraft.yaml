@@ -24,6 +24,7 @@ apps:
       desktop-launch pulse-launch $SNAP/usr/bin/gradio
     plugs:
       - network
+      - opengl
       - pulseaudio
       - unity7
       - gsettings
