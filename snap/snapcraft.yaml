@@ -1,5 +1,5 @@
 name: gradio
-version: '6.0'
+version: '6.0.1'
 summary: A GTK3 app for finding and listening to internet radio stations 
 description: |
   Search and find radio stations, listen to them, and this 
